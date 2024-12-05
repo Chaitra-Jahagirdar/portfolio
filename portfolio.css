@@ -194,6 +194,20 @@ padding: 4px;
 
 }
 
+button.navbar-toggler {
+    background-color: #fff !important;
+    width: 10px;
+    height: 15px;
+    border-radius: 0px !important;
+    border: none !important;
+   
+}
+
+
+
+.navbar-toggler-icon{
+    display: none !important;
+}
 
 @media (max-width:570px) {
     
@@ -429,6 +443,8 @@ justify-content: center;
    
     
     }
+
+
 
 
     
