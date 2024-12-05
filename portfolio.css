@@ -207,12 +207,18 @@ padding: 4px;
 .navbar-toggler:focus { 
     box-shadow: none !important;
 }
-.navbar button{
+.navbar .navbar-togglerr{
     text-transform: none;
     width: 10px;
     height: 10px;
     outline: none;
     border: none;
+}
+button.navbar-toggler {
+ background-color: #fff;
+ width: 30px !important;
+ height: 3.5px !important;
+
 }
 button.navbar-toggler {
  background-color: #fff;
@@ -342,13 +348,19 @@ justify-content: center;
 
 
 @media (min-width:571px) and (max-width:1024px) {
-    .navbar button{
-        text-transform: none;
-        width: 10px;
-        height: 10px;
-        outline: none;
-        border: none;
-    }
+.navbar .navbar-togglerr{
+    text-transform: none;
+    width: 10px;
+    height: 10px;
+    outline: none;
+    border: none;
+}
+button.navbar-toggler {
+ background-color: #fff;
+ width: 30px !important;
+ height: 3.5px !important;
+
+}
     
     .navbar-brand  {
         color: white !important;
