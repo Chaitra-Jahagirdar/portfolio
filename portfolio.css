@@ -204,16 +204,6 @@ padding: 4px;
     }
     
 
-.navbar-toggler:focus { 
-    box-shadow: none !important;
-}
-.navbar .navbar-togglerr{
-    text-transform: none;
-    width: 10px;
-    height: 10px;
-    outline: none;
-    border: none;
-}
 
 .navbar-collapse  {
     border: none !important;
@@ -337,31 +327,12 @@ justify-content: center;
 
 
 @media (min-width:571px) and (max-width:1024px) {
-.navbar .navbar-togglerr{
-    text-transform: none;
-    width: 10px;
-    height: 10px;
-    outline: none;
-    border: none;
-}
-button.navbar-toggler {
- background-color: #fff;
- width: 30px !important;
- height: 3.5px !important;
 
-}
-    
     .navbar-brand  {
         color: white !important;
     
     }
-    .navbar-toggler:focus { 
-        box-shadow: none !important;
-    }
-    button.navbar-toggler {
-     border: 0.3px solid white;
-    
-    }
+
     .navbar-collapse  {
         border: none !important;
     }
@@ -470,13 +441,7 @@ display: none;
         color: white !important;
     
     }
-    .navbar-toggler:focus { 
-        box-shadow: none !important;
-    }
-    button.navbar-toggler {
-     border: 0.3px solid white;
-    
-    }
+
     .navbar-collapse  {
         border: none !important;
     }
