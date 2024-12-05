@@ -1,13 +1,26 @@
+
 html {
-    box-sizing: border-box;
+    width: 100% !important;
+    box-sizing: border-box !important;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
+
+
+.heading-font {
+    font-size: 26px;
+}
+
 .high-font {
     font-size: 24px;
 }
+
+.high-fontt {
+    font-size: 34px;
+}
+
 
 .font-free{
     font-size: 100px;
@@ -81,6 +94,14 @@ html {
 
 .flexx {
     display: flex;
+    
+}
+
+.fleexx {
+    display: flex;
+    justify-content: first baseline;
+justify-content: left;
+    
 }
 
 .sm-block {
@@ -106,6 +127,9 @@ background-color: #0a0d5a;
 .ln-height {
     line-height: 33px;
 }
+.ln-heightt {
+    line-height: 25px;
+}
 
 .btn-1 {
     display: inline-block;
@@ -130,13 +154,45 @@ background-color: #0a0d5a;
 }
 
 .responsibilities ul li {
-    list-style:initial;
+    list-style: square;
 }
 
 .greyy {
     color: grey;
 }
 
+.skls {
+    width: 80%;
+    margin: auto;
+}
+
+.cust-card {
+    width: 80%;
+    border: 0.4px solid rgb(221, 213, 213);
+    padding: 10px;
+
+ 
+}
+
+
+
+.cust-card:hover {
+    background-color: #12145e;
+    color: white;
+    font-size: 18px;
+   
+}
+
+nav {
+    background-color: #12145e !important;
+}
+
+.style-cus a {
+text-decoration: none;
+color: white !important;
+padding: 4px;
+
+}
 
 
 @media (max-width:570px) {
@@ -151,8 +207,17 @@ background-color: #0a0d5a;
 .navbar-toggler:focus { 
     box-shadow: none !important;
 }
+.navbar button{
+    text-transform: none;
+    width: 10px;
+    height: 10px;
+    outline: none;
+    border: none;
+}
 button.navbar-toggler {
- border: 0.3px solid white;
+ background-color: #fff;
+ width: 30px !important;
+ height: 3.5px !important;
 
 }
 .navbar-collapse  {
@@ -198,7 +263,7 @@ margin: 20px auto;
 
 }
 
-img {
+.image img {
     width: 100%;
     border-radius: 100px;
 padding: 3px;
@@ -244,7 +309,7 @@ padding: 3px;
 }
 
 .variable {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footer-info {
@@ -256,11 +321,34 @@ padding: 3px;
 .center  {
     text-align: center;
 }
+.item {
+    margin-right: 10px;
+    justify-content: center;
+}
+.fleexx {
+    display: flex;
+  
+justify-content: center;
+    
+}
+.cust-card {
+    width: 95%;
+  
+      border: 1px solid grey;
+      padding: 10px;
+  }
+
 }
 
 
 @media (min-width:571px) and (max-width:1024px) {
-    
+    .navbar button{
+        text-transform: none;
+        width: 10px;
+        height: 10px;
+        outline: none;
+        border: none;
+    }
     
     .navbar-brand  {
         color: white !important;
@@ -314,8 +402,8 @@ padding: 3px;
 
     
     .image {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     border: 2px solid white;
         float: right;
@@ -328,7 +416,7 @@ padding: 3px;
   
     }
     
-    img {
+    .image img {
         width: 100%;
         border-radius: 100px;
         padding: 3px;
@@ -359,7 +447,13 @@ padding: 3px;
         border-left: 4px solid #fca311 !important;
     }
     
+    .item {
+        margin-right: 10px;
+    }
     
+.variable {
+    font-size: 18px;
+}
    
     
     }
@@ -368,7 +462,9 @@ padding: 3px;
     
 @media (min-width:1024px) and (max-width:1500px) {
     
-    
+    .navbar button{
+display: none;
+    }
     .navbar-brand  {
         color: white !important;
     
@@ -408,8 +504,12 @@ padding: 3px;
     }
 
     .high-font {
-        font-size: 36px;
+        font-size: 48px;
     }
+    .high-fontt {
+        font-size: 34px;
+    }
+    
     
     
     .home-page-start .row {
@@ -424,8 +524,8 @@ padding: 3px;
 
     
     .image {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     border: 2px solid white;
     transition: all 0.3s ease-in-out;
@@ -439,7 +539,7 @@ padding: 3px;
   
     }
     
-    img {
+    .image img {
         width: 100%;
         border-radius: 100px;
         padding: 3px;
@@ -458,5 +558,17 @@ padding: 3px;
         border-left: 4px solid #fca311 !important;
     }
    
-    
+    .item {
+        margin-right: 10px;
+    }
+    .style-cus a {
+        text-decoration: none;
+        color: white !important;
+        padding-right: 8px;
+        
+        }
+        
+.variable {
+    font-size: 25px;
+}
     }
